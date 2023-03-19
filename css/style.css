@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.tab-list.is-active a {
+  border-bottom: 3px solid #444444;
+}
+.tab-list a {
+  color: #444444;
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+.tab-list a:hover {
+  color: #444444;
+}
+
+.tab-content {
+  display: none;
+}
+.tab-content.is-active {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
