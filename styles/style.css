@@ -16,7 +16,6 @@ main {
   font-size: 18px;
   padding: 10px;
   border-bottom: 3px solid transparent;
-  transition: all 0.2s ease;
 }
 .tab-list a:hover {
   color: #444444;
@@ -27,4 +26,10 @@ main {
 }
 .tab-content.is-active {
   display: block;
+}
+
+.knowledge-list {
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  margin: 30px;
 }/*# sourceMappingURL=style.css.map */

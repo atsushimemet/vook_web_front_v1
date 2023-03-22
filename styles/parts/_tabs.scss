@@ -10,7 +10,7 @@
     font-size: 18px;
     padding: 10px;
     border-bottom: 3px solid transparent;
-    transition: all 0.2s ease;
+    // transition: all 0.3s ease-in-out;
 
     &:hover {
       color: $primary;
@@ -22,5 +22,17 @@
   display: none;
   &.is-active {
     display: block;
+    // animation: slide-down 0.3s ease;
   }
+
+  // @keyframes slide-down {
+  //   0% {
+  //     opacity: 0;
+  //     transform: translateY(-10px);
+  //   }
+  //   100% {
+  //     opacity: 1;
+  //     transform: translateY(0);
+  //   }
+  // }
 }
