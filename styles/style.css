@@ -39,4 +39,14 @@ main {
 
 .item-search-section {
   margin: 20px 40px;
+}
+
+.item-search-cover img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  background: gray;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  background-attachment: fixed;
 }/*# sourceMappingURL=style.css.map */
