@@ -1,0 +1,34 @@
+// $footer-padding
+// $footer-background-color
+.footer {
+  border-top: solid;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.footer-item {
+  margin: 8px;
+}
+
+.copy-right {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-sns-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .footer-sns-icon {
+    padding: 2px 8px;
+  }
+  img {
+    vertical-align: middle;
+    height: 28px;
+  }
+  .twitter-icon i {
+    color: #55acee;
+    font-size: 32px;
+  }
+}

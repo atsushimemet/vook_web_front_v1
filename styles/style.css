@@ -28,6 +28,38 @@ main {
   display: block;
 }
 
+.footer {
+  border-top: solid;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.footer-item {
+  margin: 8px;
+}
+
+.copy-right {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-sns-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-sns-icons .footer-sns-icon {
+  padding: 2px 8px;
+}
+.footer-sns-icons img {
+  vertical-align: middle;
+  height: 28px;
+}
+.footer-sns-icons .twitter-icon i {
+  color: #55acee;
+  font-size: 32px;
+}
+
 .knowledge-list {
   padding: 30px;
   border: 1px solid #e5e5e5;
