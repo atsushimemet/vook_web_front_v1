@@ -49,4 +49,8 @@ main {
   filter: grayscale(100%);
   opacity: 0.6;
   background-attachment: fixed;
+}
+
+.community-section {
+  margin: 20px 40px;
 }/*# sourceMappingURL=style.css.map */
