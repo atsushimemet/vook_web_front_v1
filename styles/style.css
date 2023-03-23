@@ -28,6 +28,10 @@ main {
   display: block;
 }
 
+.navbar-item {
+  text-align: right;
+}
+
 .footer {
   border-top: solid;
   background-color: #ffffff;
