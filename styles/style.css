@@ -9,12 +9,12 @@ main {
 }
 
 .tab-list.is-active a {
-  border-bottom: 3px solid #444444;
+  color: dark;
+  border-top: black solid 3px;
+  animation: fadeIn 0.7s ease 0s 1 normal;
 }
 .tab-list a {
-  color: #444444;
   font-size: 18px;
-  padding: 10px;
   border-bottom: 3px solid transparent;
 }
 .tab-list a:hover {
@@ -26,6 +26,28 @@ main {
 }
 .tab-content.is-active {
   display: block;
+  animation: fadeIn 0.7s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.knowladge-tab-item {
+  border: solid 1px gray;
+  border-radius: 10px;
+  margin: 4px;
+  color: gray;
+  height: 90px;
+  width: 120px;
+}
+.knowladge-tab-item p {
+  margin-top: 4px;
+  font-size: small;
 }
 
 .navbar-item {
@@ -71,6 +93,20 @@ main {
 
 .knowledge-section {
   margin: 20px 40px;
+}
+
+.magazine-section {
+  margin: 20px 40px;
+}
+.magazine-section .card {
+  margin: 10px;
+}
+.magazine-section .magazine-content {
+  padding: 20px;
+}
+.magazine-section .magazine-title {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .item-search-section {
